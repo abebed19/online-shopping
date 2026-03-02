@@ -6,6 +6,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+        //Object poolymorphism
+        String text = "Abebe Demis" +" Ananya Abebe Demis ";
+        Object textString = "Another String value but refrerence type is Object";
+        System.out.println(textString);
+        System.out.println(text);
         // Test your app here
         
 //        Warehouse warehouse = new Warehouse();
@@ -68,16 +73,19 @@ public class Main {
 //                System.out.println("cart price: " + cart.price() + "\n");
 
 
-                    Warehouse warehouse = new Warehouse();
-                    warehouse.addProduct("coffee", 5, 10);
-                    warehouse.addProduct("milk", 3, 20);
-                    warehouse.addProduct("cream", 2, 55);
-                    warehouse.addProduct("bread", 7, 8);
+//                    Warehouse warehouse = new Warehouse();
+//                    warehouse.addProduct("coffee", 5, 10);
+//                    warehouse.addProduct("milk", 3, 20);
+//                    warehouse.addProduct("cream", 2, 55);
+//                    warehouse.addProduct("bread", 7, 8);
+//
+//                    Scanner scanner = new Scanner(System.in);
+//
+//                    Store store = new Store(warehouse, scanner);
+//                    store.shop("John");
 
-                    Scanner scanner = new Scanner(System.in);
 
-                    Store store = new Store(warehouse, scanner);
-                    store.shop("John");
+                          
 
 
                 
